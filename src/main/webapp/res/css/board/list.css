@@ -1,0 +1,4 @@
+
+div > table {width: 100%; margin: 5px; padding: 5px; border: 1px solid black;}
+
+div > table > tr > th {border: 1px solid black;}

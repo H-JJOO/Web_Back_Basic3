@@ -1,0 +1,6 @@
+.wrap {height: 100%; display: flex; justify-content: center; align-items: center;}
+.wrap > form {border: 5px solid #000000; background-color: #A6B8C4; padding: 50px;}
+
+.wrap > form > div {margin: 5px;}
+
+.wrap > form > div > input {width: 100%;}

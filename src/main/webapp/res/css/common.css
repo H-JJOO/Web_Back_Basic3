@@ -1,0 +1,24 @@
+* {padding: 0; margin: 0; box-sizing: border-box;}
+
+html {height: 100%;}
+
+a {text-decoration: none; color: #000}
+
+ul, li {list-style: none;}
+
+body > div { display: grid; grid-template-rows: 90px 1fr 50px; min-height: 100vh;}
+
+body > div > header {border-bottom: 5px solid #000; background-color: #A6B8C4}
+
+body > div > header > ul.topMenu {display: flex; flex-direction: row; margin: 5px; padding: 10px; height: 100%;}
+
+body > div > header > ul.topMenu > li {margin: 5px; padding: 10px; height: 100%;}
+
+body > div > header > ul.topMenu > li.welcome {flex-grow: 99; text-align: right;}
+
+body > div > header > ul.topMenu > li.logoutMove {flex-grow: 1; text-align: right;}
+
+
+
+body > div > footer {background-color: #000; color: #fff; display: flex; justify-content: center; align-items: center;}
+
